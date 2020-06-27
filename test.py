@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 def train(cold=True, name='data.csv', n=10000):
     """Train the computer and store memory into training data file. If cold,
     computer starts with no prior training data. If warm, computer starts
-    with whatever memory is in trainind data"""
+    with whatever memory is in training data"""
     
     ttt = TicTacToe.TicTacToe()
     
@@ -82,15 +82,10 @@ def test(name='data.csv', n=10000):
     
     
 if __name__ == '__main__':
-    """ 
-    5,478 different state of the board.
-    Player 2 is always the computer.
-    Build dataset of random moves, then train computer against rng.
-    """ 
     
     # play()
     
-    # train(cold=True, name='data.csv', n=1_000_000)
+    train(cold=True, name='data.csv', n=1_000_000)
     play(name='data.csv')
     
     # train(cold=False, name='data.csv', n=100_000)
