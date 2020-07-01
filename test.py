@@ -66,7 +66,6 @@ def play(name=None):
 def test(name='data.csv', n=10000):
     """Examin performace of computer without adjusting training data"""
     
-    
     ttt = TicTacToe.TicTacToe()
     
     print('Loading...')
