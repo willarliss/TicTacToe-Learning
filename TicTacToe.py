@@ -328,15 +328,3 @@ class TicTacToe:
             again = input("Press 'Y' to play again   ").lower()
             print()
 
-
-###
-
-
-def test():
-    
-    ttt = TicTacToe()
-    ttt.CvC()
-        
-test()
-
-
