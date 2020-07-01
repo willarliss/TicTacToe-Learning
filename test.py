@@ -90,5 +90,4 @@ if __name__ == '__main__':
     # train(cold=False, name='data.csv', n=100_000)
     # test(name='data.csv', n=100_000)
 
-
-  
+    
